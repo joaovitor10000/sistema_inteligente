@@ -1,0 +1,53 @@
+body
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: azure; /* background-color ele é troca a cor */
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: lightblue; /* background-color ele troca a cor */
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2; /* Eu acho que muda o cor da letra */
+  text-align: center; /* Ele deixa o seu html no centro */
+  padding: 14px 16px; /* Ele define a distâcia interna */
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #addd;  /* background-color ele troca a cor */
+  color: #FF8E55; /* Eu acho que muda o cor da letra */
+}
+
+/* Style the content */
+.content {
+  background-color: #3180F2; /* background-color ele troca a cor */
+  color:#FFFFFF;
+  padding: 10px;    
+  height: auto;  /* Ele remove Somente para demonstração */
+  /*/height:200;/*/
+}
+
+/* Style the footer */
+.footer {
+  background-color: #74FDFF; /* background-color ele troca a cor */
+  padding: 03px;
+  text-align: center; /* Ele deixa o seu html no centro */
+}
+
+
+  
